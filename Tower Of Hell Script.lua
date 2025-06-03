@@ -145,49 +145,6 @@ ModsTab:AddSlider({
     end
 })
 
--- Invincibility Toggle
-ModsTab:AddToggle({
-    Name = "Invincibility",
-    Default = false,
-    Callback = function(enabled)
-        invincibleEnabled = enabled
-        OrionLib:MakeNotification({
-            Name = "Invincibility",
-            Content = enabled and "You are now invincible!" or "Invincibility disabled.",
-            Image = "rbxassetid://4483345998",
-            Time = 2
-        })
-    end
-})
-
--- Background Loop (Invincibility with math.huge + Anti-Void)
-task.spawn(function()
-    while true do
-        local player = game.Players.LocalPlayer
-        local character = player.Character
-        if character then
-            local humanoid = character:FindFirstChildOfClass("Humanoid")
-            local hrp = character:FindFirstChild("HumanoidRootPart")
-            if humanoid then
-                if invincibleEnabled then
-                    humanoid.MaxHealth = math.huge
-                    humanoid.Health = math.huge
-                end
-                if invincibleEnabled and hrp and hrp.Position.Y < antiVoidY then
-                    hrp.CFrame = CFrame.new(0, 50, 0)
-                    OrionLib:MakeNotification({
-                        Name = "Anti-Void",
-                        Content = "Teleported to safety!",
-                        Image = "rbxassetid://4483345998",
-                        Time = 2
-                    })
-                end
-            end
-        end
-        task.wait(0.1)
-    end
-end)
-
 -- Restore on Respawn
 game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
     local humanoid = character:WaitForChild("Humanoid")
