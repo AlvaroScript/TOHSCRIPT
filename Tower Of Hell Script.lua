@@ -3,10 +3,10 @@ local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/GRPG
 
 -- Create window
 local Window = OrionLib:MakeWindow({
-    Name = "Tower Of Hell",
+    Name = "AlvaroScript | Tower Of Hell Script",
     HidePremium = false,
     SaveConfig = false,
-    ConfigFolder = "TOH"
+    ConfigFolder = "ASTOH"
 })
 
 -- Bypass Tab
