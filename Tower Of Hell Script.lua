@@ -1,1 +1,233 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _vcnmcGWtrMyS = a; end)); return(function(l,...)local u;local a;local r;local t;local d;local g;local e=24915;local n=0;local h={};while n<323 do n=n+1;while n<0x64 and e%0x47dc<0x23ee do n=n+1 e=(e*203)%45626 local f=n+e if(e%0x4be0)<=0x25f0 then e=(e-0x380)%0x701e while n<0x23d and e%0x4d22<0x2691 do n=n+1 e=(e*830)%13694 local u=n+e if(e%0x3ed0)>0x1f68 then e=(e-0x92)%0x7a61 local e=13790 if not h[e]then h[e]=0x1 r={};end elseif e%2~=0 then e=(e-0x28e)%0x3525 local e=31006 if not h[e]then h[e]=0x1 end else e=(e*0x3d6)%0x2607 n=n+1 local e=37773 if not h[e]then h[e]=0x1 d=string;end end end elseif e%2~=0 then e=(e-0x3fb)%0x44c9 while n<0x356 and e%0x138e<0x9c7 do n=n+1 e=(e+747)%31195 local f=n+e if(e%0x21ae)<0x10d7 then e=(e+0x3e)%0x8109 local e=49779 if not h[e]then h[e]=0x1 t="\4\8\116\111\110\117\109\98\101\114\89\66\80\73\84\103\81\68\0\6\115\116\114\105\110\103\4\99\104\97\114\102\81\85\81\100\117\74\84\0\6\115\116\114\105\110\103\3\115\117\98\74\116\111\95\80\112\108\105\0\6\115\116\114\105\110\103\4\98\121\116\101\113\75\121\99\108\82\88\103\0\5\116\97\98\108\101\6\99\111\110\99\97\116\97\89\76\80\105\109\69\69\0\5\116\97\98\108\101\6\105\110\115\101\114\116\76\116\114\85\121\99\80\74\5";end elseif e%2~=0 then e=(e-0x3a6)%0x6d24 local e=72080 if not h[e]then h[e]=0x1 end else e=(e*0x12c)%0x8288 n=n+1 local e=92104 if not h[e]then h[e]=0x1 g=function(g)local e=0x01 local function h(n)e=e+n return g:sub(e-n,e-0x01)end while true do local n=h(0x01)if(n=="\5")then break end local e=d.byte(h(0x01))local e=h(e)if n=="\2"then e=r.YBPITgQD(e)elseif n=="\3"then e=e~="\0"elseif n=="\6"then u[e]=function(n,e)return l(8,nil,l,e,n)end elseif n=="\4"then e=u[e]elseif n=="\0"then e=u[e][h(d.byte(h(0x01)))];end local n=h(0x08)r[n]=e end end end end end else e=(e+0x81)%0x8607 n=n+1 while n<0x20a and e%0x2742<0x13a1 do n=n+1 e=(e*241)%4681 local g=n+e if(e%0x7f4)>0x3fa then e=(e-0x2cd)%0x3c1b local e=87073 if not h[e]then h[e]=0x1 a=tonumber;end elseif e%2~=0 then e=(e*0x3fe)%0x74ac local e=20130 if not h[e]then h[e]=0x1 u=getfenv and getfenv();end else e=(e+0x2a6)%0x8a52 n=n+1 local e=73589 if not h[e]then h[e]=0x1 u=(not u)and _ENV or u;end end end end end e=(e-159)%6885 end g(t);local n={};for e=0x0,0xff do local h=r.fQUQduJT(e);n[e]=h;n[h]=e;end local function f(e)return n[e];end local o=(function(l,d)local t,h=0x01,0x10 local n={{},{},{}}local u=-0x01 local e=0x01 local g=l while true do n[0x03][r.Jto_Ppli(d,e,(function()e=t+e return e-0x01 end)())]=(function()u=u+0x01 return u end)()if u==(0x0f)then u=""h=0x000 break end end local u=#d while e<u+0x01 do n[0x02][h]=r.Jto_Ppli(d,e,(function()e=t+e return e-0x01 end)())h=h+0x01 if h%0x02==0x00 then h=0x00 r.LtrUycPJ(n[0x01],(f((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+g)%0x100)));g=l+g;end end return r.aYLPimEE(n[0x01])end);g(o(92,"-v{a9(N&JY4FqCRS4Y"));g(o(171,"4{su8&0U/!o tG3%&& gUst/{ 0Ut{z%R{ 0{t0!t{3%8u! {30o !{UU{&so/0/ <nu0u /388Uos388U 8{U0{8oou0u oh00X  r300 %3tu/o/3U8{88!%0{ Uqo&0 a%3%{o3%U&%ou%G8tos3 &!o0Ft&U!8!s3 o!%s&oou!&&{!3%8&to!38&tU!%{8{ootG83uo!U&u!o%38t!!%Gu%oU3!u%!33tstUsGUuGU&t/s&!!//3c/83/u o{%{8!&%3F8Mo{G/sU!U38u sG/s8o/!3080U!3{{s0ttU8o/!30G{s& s88Ust2u8/8G sG/uUoGu!838uG!u30us/tGouU/ut0C%UuG&{3/oU1to/3Gls0/&Gut!/GG usU/t%st0u /{u&0t!{8/sGFts{!GGs /st/{%UtG&%GUt %ysU/GGs0{s0/s/U%t s&/+  {G&s o{%0st8s&qG08s00Gt!{U0oG^9 8  3s!&Uo3{s&8&! sUI !s{0o&t{s0Gt&{oUso %30o ul%UU 0{oLs"));local e=(-24039+(function()local d,n=0,1;(function(h,e,n,u)n(n(h,e and e,u,n)and n(u and e,e,h and e,e),n(n,n,e and e,e),u(n,h,h,h),e(u,n,h,n))end)(function(h,e,g,u)if d>406 then return h end d=d+1 n=(n-544)%3855 if(n%1412)<=706 then n=(n+717)%30645 return e else return g(e(g,e and g,e,h)and e(e,e,h,e),g(e,u,h,h and g)and u(g,g,e,u and u),h(u,g,e,e),u(u,g,e and h,e))end return h(e(u,h,h and u,u),u(e,u,e,g),g(h and h,h,e and g,g and e),e(h,u,h,h and u))end,function(e,h,u,g)if d>305 then return e end d=d+1 n=(n+462)%6281 if(n%756)>=378 then return u else return h(h(h,u,e,e),g(e and e,h and u,e,e),e(g,u,h,e),g(u,u and e,e and u,e and u))end return e(h(u,u,h,h and h),g(u,e and u,g,g),u(g and e,e,h,h),h(g,h and h,h,e))end,function(h,u,e,g)if d>121 then return g end d=d+1 n=(n*649)%29368 if(n%1868)<934 then n=(n+829)%16830 return h(g(e,h and u,e and e,u),g(u,e and g,h,u)and u(u,h and e,h,h),g(u,h,u,e),e(g,h,e,g))else return e end return h end,function(u,h,g,e)if d>423 then return g end d=d+1 n=(n-357)%35586 if(n%1894)>=947 then n=(n-222)%36199 return h else return e(u(h,u,u,g)and u(e and g,u,u and e,h),h(e,e,e,e),g(u,u,h and h,h),e(h,u,g,e and h)and u(e,e,h,u))end return h(h(h,e,h,h),e(g,e,u,u),e(e,h,g,u),h(e and u,g,g,e))end)return n;end)())local f=r.oBlZHiym or r.MMSA_Ung;local ue=(getfenv)or(function()return _ENV end);local t=4;local g=3;local u=2;local z=1;local function ee(b,...)local s=o(e,"?!0^g9ihuDw71FN/1F^017ig/NDi0/1ui!/wD^u9k9i!qgD=0D107wiw/_Dg0177^uN!Dh0Nw0ihFw0^7F90N7ugug!h71gFug!F7^g1N917u !Ng1/7h7!gwFD^gNNhh//Fwu^/Fgi!!770g0NQh0!hu9^/F^i1:iwu!gNkhD! ^wFFiDQ0D7uu^1FFig+w9!!D1D!1FFD^^^11/1Dh071g9FgD//uF0i7N/iD7097N9hghNwuN0iwh9FN7ug!1h!g;Nguu0w7^Nuu>!D70g7NghF&iNNg7Nwhw!^w1uNg1Fwu0%Nw/g)N0u!wDg7Fuh!zwNiw7g^FghaEhh/g!Fhiun0wuF0h!}!Dw^^001iiwC1D9!h1^iu/D0N1i9//uD!0w1^w9^9D!^01=9D/0FhD^0R7h97FuuF!7119!/h!N7h9^gFu0!77g799w/^uu0gug!0w7uhr/7N-NNoh7!/w190Fuug!7wig1Fih7!^70^1FNhFF-DNg^Fw^9Niuw0!7!ig{DDN^11N0/NgDhggD!9lT/w0^11iih10DN0w1giw7/D!0h719uL-99!hF!9gN/D9NDDFi^NDgFc1799FNFuF0whNg0/iuF0u7Dgw1wu=!0h!^9NhhF!!w79!w!!g7^g^F1h9g/57wg0FN!h0q7wD^7h0p/w!^wF^7ciwkgDug9F9hiDN^u1Fii//NiD0^h1u//Du0N1hicgi/^w^1hi//iu/0u!97/9//!D90F1DigwDDi0whg^^N/uF0!1g90ui^^79gNNh/0h70ww19h/}h70^7!g97gg0F7hD!0w/g^F1hi!QwFgiFNg0N!h!Jww^hF^DF0gD!9wFgiFwh0w,^/1/iu(!Ngwu^DF9!NF/D!011F/NDu0F1i9/g!//D^^h9F/9uN0h1A9D/0D/ig1(izN/uu0!AF7gi0Nwi!0i7Ng/N7u079gFNih/!u7!gw!^71!u70ghNmhD97%N7^g7hD!Nwug!Fw7Fu!!0wN0hF/uPthwF/g1^ihK7wF^iiF!!D1^91N7wiuLuwDN7wihiziDn^7Fg!wNuh91ui9/hDS0Do/719//0hw0j7w/gDg0^7199g!/hu9!N7it711hN!D7wN7uu!w7^g10uNFu9!NwNg9N/!h7ugiF/hui!!1wugDFNu^!gu/ghFNugwhg7Fii/vuNgw0^gFNii)!w7^9F7g^//Du^01w,0w0^!1wi^iukgu/07F^iFygDg^01g/DwH0u1!9wg^/uui^h71i0wDih!/7Fi!/9D!Fuw9g7N9!/7wgNNhu,iD0!10gDN/!hw/guN!hw!^w1hDDNhw!gwDg0F71!iNB/wFF7hDBww^^1!u1/h^e1D7^^1Ni/w,^F1/iuj!NwD/0FFNi^4Dw^1wi0/7Dg0F1iD/hhF!0F1N91/9uNi/0D7F9hF7Di001^9u/FuN7F9DN1u9!N/D1D9DN^uN0h92NDh/!u7!DN^01g!uF9ghNahDii!^wF9dDih9!!wF^/D^u^Ii7!/hNvh7!!w/^DFkhwQgD1/!N!i1!KDFNN7gi/duw_!N1DiM7iu9/7ig2gD^0119w79u/7uN!D1gi0/!D9^i97/uuw0^71DFi0/7DB(a7h9/u9!F7ig/Nuu!!w!1u1Nuuh!h7&gD0^F/hu+H70guF1hi!1gwF1h9oN1hg FDh0l1wg^FFii/Puw!u^D^i/GDDN^hFA71i7!9DDF+iw//Du^!!N1uhgZD0/1hi4/DD0071g^F^9D0^_1!9w/^F1Dg^!1Gig/0D!0D9h/Fui!/7uD^g7Niuh!11.9i/9uh!iuN9^NDu90!h7N!h7!i79g9FNhhig!uwDg0Nsh01iDg0!hg!^w^^1F97Nh^)!70^hFFg7!0D/F0h0x!Dw^^!^1wh0NwD9^7Fuig/hD01Di9/uD!0wqi17i!/FDD/^91/Nu70g7FwF9K/!D9d5109N1uui0}71gFu9017ggFNi11uh0i7Fgu7Nuw0077g/Nhg^NN7sgiFDhww7ghFwh^,1/9D/gDF9hh!i^1FgiF-iD/^uF!1^1^D/^/1NihH8N0w:^7FDh!FuDg0/10iuDi^i199N/hNguN^w1/^if0Dw^^1h9/uF0w7199NNFFuD0177gF/ku07hg/Nuu!!w7^g10N7N!w7hgDN0h79h!17ggFFFhg!NgiN1h9TNwhD9g1FhhFNFw7giNgh1/gD/g9N0iN=!D1F!iDV0D7^g1FiiiuFu^gF9i^/1D9hw^i1^9w/Nh7^.7Ni//gDw1g9N/^u109097u9FNN091h9gNFuiiu0i1!9//h9/!Fw/99NhhN!igNNhhF!iw/7igi/!!i7^g9FNhhi,!9w^9gFDh/!DgLFuh!)ww^^1F9iNjhw^g!F0i7*gNiwgg0F1i0UuDi^!ii/NDh^B1Di0/7NFiF1Dig/uD!0wAD1N9i/7u11^9N/0u70g!0Dw9u/99^7/9^N1u90g7h9&NDu9!/7ggFNi1gui0i7hNiuD!9wNgh^9N1hh!FuFg7Niug!1D99^N^h!wug9FhhMoDN9wwg0F7i7J0w1Fghi:^D1^9!7Fih9c1DhKFFDh!<wDN^iD0/FD701199Ngh//D1071/9F/1Dg109//!uw0^//7Fg//9uh!N7iN1ug!F7i90Nuu!!w7i9wN9hN!hB971ghNF9F!77i9gN1ig!Nwg9GFw!!w7gfFDh093!070g^h0_7w!^wF^7!h^}0^hFxiDj0w9^g1Fii///N^!1wi^/1D90N1huyA1D0071g9F/iDT0uF^i!/^uF091Z9h/QuDg01^9gNNui0L7u90Nww^^h79g/Nhu!!D79g7NwDg!iw/guNwhw!gw1giFNh7hpwDg0F7hFfFwh^/FuF/tww^^1F9iNChw;^D09i7_gDF^h1/iu !Dwi911i9/NDu^81Di0/7wu0F1i9/!u1N0w1g91/9uN0D1di7/Fu70i7F9hN/uu0!Fwi^N1uh!N7D96N7u0^717gFNuh/!w7!gNN^u0!iwNguNJu1!0w1ggF/hi!^Eug!Fwh^!/w9^/Fhhehhw0^1FgiNKiD/^uF!DD(^DF^91NihsSDD90F/ig/NDi0/1uii/wD^^7199//hD!0D1097/gDN0i1&9u/guw0^71h9/huh0!7D9^N7uD!F7i9gNuu0!w79g1N9hN^h79gDN^h7!gwFg1F/Du!/wwggF1hiWNwwgxF/1wP7wh^FFii/}Dw!^1F^i1^NDN^hFHiDX0D7^g1Fuu//Du^!1wi^/1D90N0ki8/wD00N1g9N/iu/9w1!9w/^uF097N9h/!u100779g/fD^!/7u9!^//iu!0hDh99/HuN0iD/9FNFh77099N!hw!^/D7g9^Nwh9/i7!9!FDhw87wFg1hgfNw^^1F97^h9!9wiF0i74gDF^N1/iu5!7whf11ii/NDh^f1wi0LFwi0F1u9//7D!0w1^h1//uN0D1.97/0u10gFFh^N/uw0!719^NNu90g7u9ENwu0007ggNNiu!!u79wwN^h1!979ghN!hD!0/NggFFhix/wug!Fwh^^Nw9^NFhh!vDw0^7F9iN-iD/^uFgh!<^D1^90gFSh^v0Dg^h1D/FDi0/1uiu/wD^0119h7/hDo0D1097/guF0i1D9u/!uw0^7199NNuh0h7D90N7ug!F7ig/NuuF!w7^g1NihN!h7YgDN1h7!9wFgiF/hu!!7wgDF1h9xNwug&Fwh0%77u^FFii/RDw!^wF^i1{1DN^hF2i1VhD7^g1F77g^j!DN/1ii8!D90N1h7^91/^Dh0Di2/hu/0u1!70/iDg097N9hgx/uD90g1u9i/9uF779gNwu^!10^7^9Nu^!/70g7Ng11h1!977giNN!iwFg9FNhhiDwDg0F7hg0iwi^/FuD!!iw^^FF9iNXhwg^DF0hFUgD/^i1/iuT!Dw^^F/i9//Dh^!1Dig/7Dg^/1ii!/uD00w1^91#hDD0h1^9D/^u70g7Fhi/Nuu0g7w9iN1uw!N7h97NDui!77igFNih/^u7wgwNhh1!DwNgwNIDD!ww7guFFhwE/wwg!Fwu721ww^NFDh34Dw097NgiFO7D/^FF!iFl^71^/1Ni1}3DN^0F!ig!Fwh0/1Ni!/7D^0/199N-hD*0N10ix/gD^0i7/h^/!DR0^7N99NNuhgH1090/!ug0^7i9iNuw!h!7^90N9ug!h70gDN0h1!g7ggiN!hu!!wwi^/gh9!9whghFDhDQ71gg1Fihi>uwu^wFDi109w7^hFuiDP^D7^71Fii!gDu^u1wiw/1DF0N1hh^/DD907179F/uu/^uEg9w/9u10D7N9w/luD9g779gNFuh!/7u9!N7u^!179gNNhu>!D709iNghF!iw/iFN!h7!^w1g9FNhh!iN!g0F7hg!hwigcFuh0UwwhD1F9iNthww^DF^i7lg10^iFfiub0Dw^^11i7!/Dh^!1DiD/7D90F1h9//1/!0w1^91/1uN0u1-9F90u70g7FiyN/uD0!7whuN1ui!N7D9jNDu0!7NugFNuh/!u7!gwN^h199wNguNfh7!0w1ggFFwua/wug!F7h^.1w9^/^ih*RDw0^7/^iFviD/^DF!iwO^wNg^1NiuGc7i^017ig!FD/0/1Di!/7D^gi19hr,iDe0710hw/guF0i7/91/!u70^7N99/#uh^0F090NFug^F7ig/Nuw!0N7^gNN9u+!h1wgD/gwh!g7Ggi/7hu!!ww99^Fh9!0wh9iFDh0477i9gFihgBu7F^wF^i1!h7w^hFiiD0dD7^g1FiiZ7Du^^1wiD/1Dh0NFhh^/DD^071i9F/uu/^w1h9w/9u1g97N9h/BwD0D779iNFuu!/F09!/1w/!17ugNN7ue!D709Fg9hF!ww/9hN!hw!^7N90FNh1!(wFg0F7hg!/7h^/FNh!f7w^^1F9iN0zwK^7F0h!HgD/^iF/hD3!D7^^F!i9a=Dhg01Fi0/FDg^u1i9//u7!^01^9N/9D)0hFw9DVg7h0g1V9i47uu0!7wi9gwu9007hi1NDu0!71iihNiug!u1FgwN^h1!97NghN0hD!hw7giFFui0wwug0FwhDX1wh^N)hh9KDw^^7NiiF>FD/gwNNiwY9D1gF1Nih d7D^w17ii/FDu0/N^i!!wD1011h9N/DD#gx10h7g/uF0u7/9w/!Di0^1Ni9NNu70l1090N7ug!F19g/Nwu!!N7^gNN9uN!w7xgwN0uD!gw/gi/!h7!!w1g^/Dh9dNwhi)Ngh0EFwg^/FiuD%u7^9!F^i/K9w/^hFoiDL0e^^g1/iil!Du^^1wh901D9^!1huY/DD007Ngh9/iD00u1g9wrFu1^hFg9h/guD^N779gNFDu^77u9iNww!!179gN/DDw!D7ug7T5hF!iw/9w/hhw!ww19uFNhh!XwDg1F7hhxFwF^/Fwh!!wNi^1FhiN*Dwc^1F0hF^gDF^D1/uuj!Dw^^N1hi/NDw^)11i0!9Dg^/F19//1D!0N1^91/9wL^R1a9N/0u10g7F9i8!D^0!1d9^,uu9!N7hi0/Du0007giDNih/!u7!gNN^h/!979ghN0hD00FNggF/hi!gwuggFww^!ww9g4Fhh^tDww^7Ngh!fiw!^uF/iwdgD199NgihQ^DD^g17h!/F7igh1uig/wDi01FD9N/FNu0D1h97/iuF0h7/9w/!uw917199NNuh0=7D90N77F!F7ig/NDu!!w7^g1^NhN!w7)gNN0h1!gwF7gF/h7!!wwg^F1h9HNw7g.FFh0!!wg^FFih9i5w!g!F^i/%9D/^hF^iDy0Fg^g1FiiagDu^!1wi^^9D90N1hi!/DD0071gDi/iu/0u1h9w/^u1g91h9h/uuD0^77igNFwi0F7u9DNwu7!11DgNNFFu!D71g7NghF!hw/g1N!hwg1w1g9FNhw!+wDg0F7wFXFwi^/FFh!dww^^1HNiNIhwJ^/F0i7PgDFi/1/iuv!D7^^11i9/N/O^dF!i0y9Dg0N1ih/t!D!^01^9F/9wh0hN.ih/0D^0g199iC^uu0h!09^/iu9!/7h9!NDu^!77guiNih/!u79gwN^h1!9NDghNuhD!1w7g9FFuu!/wugDFwu7P1w9^N/huC}Dww^7F1iF!;D/gwF9iwMFD1gw1Nihp=DD^^17i1/FwO0/1wi!!wDh011F9N//D4g010h7z9uF0N7/i}/!DN0^10wFNND!0)7F90N1ug0C7ig/0!u!!w7^9vN9hN!h7}u0N0h7!g7rgiF/hu!!N^g^F1h9!9whgSFDh0igwgg9FihDKuw0^wF^DNB9DN^hF!iD40D7^gNUii//Du^gF^i^/1D9hu^11FiDN0Dw^710iuD0^u1!9w/^FDui0D71^N/uDi0g7w9iNDuy017w9D/!!/1hgNNhuai^0h7u9gDFhN!}w7g1Dwhu!wwig)N^h9OFi^FNhu_Fwi^/0/F0h^!h^/NSiNLhw{u9g!1Ni98Dui^71Dhw//w91/iN/NDh^eY11w91tiuN0DF^9Fs^0F1w91/9uNhh017wi7/<Di^69D6iuu0!7w19gN/Fh/0w1^gN/iug!uuh!9wNg1N9u0!iw/gDN^u5!D7!!97;ggFFhi9u!9w0g!FuU/wD^NFhhj9FS7wu^Dh:MwD/^uF!7uigBDDwF!i/>lDD^0!^FDiw/hDF^h1w9NDi^^199N/hF^Du^U1/9D/7Dw10i7/!uw0^mi1w97/hgX0!7^gNN/^F!w7u97N0h1!/7!gDD/!w7ggDN0h7h7SN7^ggh70iwwg^F177hh!9wg!/F7hF!h7!!DFhh!TFDN00F0gu#wDug^F1l9wD^g1Fiig0mmD0^11g9/2DD^^Dw!9F/iDl0u9N/iu/0u1!9w/^u1i91!il/TuD00l91D9w/i^/;y70gFNN!179gNNhww!D70g7NgNi!iw/guN!hw!^w19h/!hh!!wD9!F7hgkF1ig0Fuh0&wwg^1F1iN0hw^^DF^i7v9DF^71/uuLNDw^g11ii/NDF^61/ih/7D90FF^9//DD!071^i.99uN0h16ii/0u10g1/whN/uD0!1D9^N1u9^NFw9LNwu0!17g9gNiD/0D7!g7N^hF!97^ghO_u1!0w1ggFNhi0Jwui!N0h^dFw9^/FhhgLDw0g!FgiNciw!^uF^iw0^ww^9Fyihq!DDg017hi0DDi^^1uiF/wD^0119ug/hD00D1i97/iuF01/F9u/^uwg1719iNNuh0S7F70N7ug!FF/g/NDu!0P/!g1N9hN0/7rgwN0h7!g7!wiF/hu!!10g^FFh9yN11gfF1h0U1wg^FFih9giw!^FF^ugC9D/^hFHiD.i/7^g1Fii!hDu^01wih91D90N1hhD/DD^071gu0/iD00u1^9w/^u1^9#!9h/0uD0^779hNFui9K7u9gNwui!179gN5hu1!D79g7NhhF!uw/gu/hhw!uw1g9FNh7!{FD9iF7hD*F7!^/N7h!!L7u^1F9iN0uwa^wF0i1dgw!Di1/iuY!77^^1Fi9%0/h^,1Di0!/Dg0N1ih!0gD!^n1^9//9uN0h1ihw/0D!0gN09i/muu007w9hg1u9!N7hh9NDu^!71ihDNiu9!u7/gwN^h109/!ghN9hD!/w7gwFFwi0hwugiFwh1t1wF^NKhuwcDwh^7FNiF!uD/^u0wiweiD1^w1Niuq_DDig17ig/FDh0/1ui!/7wi01199N/wDg0D1097gu/iD^0g97ciuw0^71D79h/9ug//779F/hD!/D7h9!NFhN.0700uNwhu0^71N^h7!gwFgiF/hu!!Nwgi/*h95NwhD^gDFhh*qu9F^NFGi7.19w^hF9hu//DD^11Nii71^hF!ii//Duuu0711h8Du^h1hi_/DNDu1^<1ugD//uF0i7N/iD+097N9h9hNwu/0e9h/uui!/7uDF9DNihF0!DN9^N!D0!h7FNhuF!iw/gu0NF7hN!!D^gFN7hD%/w7^NF9u!G/wNgihg!Fw^^1F91!hhp9DN^iu7i1/NDD^wuuiimuDg0NF!i^/79!11hD/7Dg0F^u1!h2/0DF^i1!iD/hu7/wuu0!7/9u/9uD00719i/^u10guu007h9XNDFCh10!70NDuF!u7!gw0iNghi0lwug^NFhh!Fu9g!Fwhgz1ggN0h^21w9uig1FFiw!8ww^FF!HDwD^uF!iw9ik1Dw^^170+N!D^0N1/fQDF0/1ui!^FH0Dw^D1^i9-g011D97/guFhi077DiwN/D90/9u/huh0r7DD99^N9u/!h7091Niu17i9!N9hN!h/D7ig^N0hDwFgiF/hu^1wwg^F1h9hhwhgmFDh0.7wg^FNuud2uw0^wFwi159DN9hFhiDO^D7^91Fhh//7u^w1wig/1Di0N1/ik!Dww07199F/hu/^w1!i)/Nu10i7Nig/duw00719g/!Ni!/7u9!/hu^!F79iS^uuk!w7090NghF!i1/i7N!h7!^wFg9N/hh^E77g0F1hgLNwighFuD!!Fw^^FF9i/2hwF^D/0u^-gDN^iFSiu(iDw^^N9i9//Dh^01Dig/77g^71ii!/uD00w1991,h7w0h1g9Doxu70g7F9i!9uu0^7w9hN1uh!N7Fh!NDug!71hgFNhh/!D7!gNg^h1!9wN9wNThw!0w/wgFFhiR/F0g!F7h^!01i^NFhhL!/w0^1FgiN4iw^DuF!iw.^70^91/ih&g/D^017ig!iDi^Y1ui!!/D^0/199//hDX0D1uh1/gDb0iFD9u/0uw0g719DgNuh0b7Di1N7u9!F7ihgNuug!w79g1N9hN0h/^gDNgh7!wwFgDF/hug0wwgiF1huLNwhgI/Dhg;7wh^FFDi/!!w!^wFii1)wDN^hFniFp017^11Fi7//wg^!FDi^O0wi0N1hiH!7D0011g9N/iD^uu1!9w/^wN097/9h/gND00779g!0ui0t7ui^!iu^00799uNhu}!D7ui1Ngu^!iF9guN0hw!gw1gD^Nhh!=wDiuF7h9}F7ui7FuhhWwwh^1F9iN!hN^^DFhi7!gDF^11/Du!DDw^u11hu/Nw0^G/Dh1/7DD0F1h9//7D!0w!191/uuN011q9w/0u79i7F9iN/uD0!7w9^NFu1!N7h9HN1u7!77ggF^FNLug!1DF9^N!hw!0gwNghD!0w777^NF/u^w7g9Fwh^H1!DD/gwF7mww0^7FgiFtiD/!u!TiFR7D1^91Nw/h9WiD^^DF^ii/w^0F!i!/wD^hi^w17ihNLDu^D1ViiD.^07/9u/!N!ug091D^g/iD0/17w9g/Qu!7ig/Nuu!0N7^g1N9DNg!7jgwN0h7!g7ggi/!h/!!wFg^N!h98NwhgaNFh051wggJFih!Ru7^90F^iN#9w!^hF6iD00wi^g1/iiM!Du^^1wh9!hD9^!1hig/DD0071gh!/iD!0u1^9w/gu109N^9h/0uD00779gNFu1gT7u9^NwuN!17igNNuu+!F!0g7NghF0!w/gDN!hNh^w1g9FNug!Xwwg0F7DDCFwu^/FDh!eww^g1!uiNkuw_^wF0iFzgDF971/iwO!D1^^11i9Gg7u^417i0,1Dg0N1ii./uD9uw1^91/9D/0h1!9D/iN70g7F9ib0uu007w9^!!u90f7h9^NDu0!71gD#Nius!u7hgwN9h1!9NjghN>hD!^w7ggFFhh!uwug!Fwhi!ew9^NFh1hiwq7w/FhhgTiD/^u0!Fiig!9DwgrFwE^wN^017igg^//DF01whi^(9D/^Dw!9//DD90iww9wFaD00O17iguF017199NN1wuu!w1gg1NhD!!71!N7uw!w7^g1^1F/u^!7D190N*hD!!gDNwhu!!wwu/g7Fui/!^D_g9F^ugdDw/FDh^Euw!^w^w1Fh0O^^wFNiDP0D7hh^91hh!/DDg^N1uiNFiD007199FD9^^1g9F/iFhDF0N77i!/7uN009h/QuD00Fg9gNFui!/t79!Nwu^!179gNNhu)^N70g1NghN!iw/guNhD7!^wFg9N^hh!!wDg^F7huiFwi^/Fuhi<wwg^1FD1NMhw4^DNwi7d9DFgu0Siue0Dw^w11i9/N7h^D1Di^/7D90F1u9/!uDw0w1g91/iuN0F13hD/7u7097F9hN/u10!18hgN1ui!N1u9>Nwu0!17g9!gih/!u7!97N^hF!91RDuNahw!070ggFFhi0/17g!F7h^_Fw9g5FhDo00w0^1FgiNziw9^u/!hNk^DF^91/ih uDD90FNig/NDi^:1ui0/wD^gi199//hD00D1g97!gD70i1!9u/0uw0i71ih!wuh0g7D97N7ug!F7ih9Nuu^!w7hg1NhhN!FF!gDNgh707wFghF/hD!!wNw^F1h9SN7Ng Fwh0A/fg^FFii/0#w!^7F^h1guDN^DF_iNB0D7^g1FDu//Du^!17i^/1D90/N9i:/DD00N179F/iu/hN0i7Fih/7Dh/!9w/iuD0077DD9//uuN0wh0NFu1!179gN0wNuhw0gw1gh/!h70!gDN!hw!^w1g9FNhh!Uwwg0F7hgsFwi^/No7!PFwD^1F9iNgwNiw7^^FuiDwE^F1/iuK!NwD/0FFNi^jDw^11h0/7Dg0F!^1Ri^/ihu^0F:9N/gDJ0^7wii/gD^079D/^uu0!7wwh99/0u^7w9FNDu0!7lgwN9u/^u!!g7igu7Nuh!hwwg7h1!hw7ggFF7/h1XDwu^/hi0iw9^NFh1Dhu!h97^9F/i77/wigIN!0^/FwDNNF7iu/N90^!1Fi7//w0^;u0/FDi01199Ni9/9wR19h!/guF0i491!9//^Di0gh99NNuD00Fh09D/^D!Fi799h/iuu!hhwNuuN!h7OgD0w/vu! N7ggNN!h9/170g7ND9N)u70gFh9!0wg^FFi70hh=/wN^uFwhDw!^1FCiD,0j/w^gg17h!D7^11wi^/1NDD^^^19iDO!DF^u109w7J071w9w/^u1D10F1D97/1D0!17h90uD0F7u9!Nw1Du90^700FNDu7097/0hN9h/!7w1NghN!^w1g9g^N/hD!Fg9/0hg(Fwi7!^wNDi7!iw/^wN0htpgh^B!Dw^uF!iN_0D7^91/i1k9DFK!DF^X1Di0i!/FD70/F0iZDg0N1^91/9N9uu0D1F/9D^0g7F9ii0NFug0N7197/^D!7u9&NDu0!77ggF/w7/!779gwN^h1i^</7gg9h10Qw7ggFF7Dhh2D7^^7Fiu+Iw7S!uFgiFkhD/Fhhu_iD/^u!FFDii/Fw!!NF^i!!0Dh^Fih2!Di0/1u1u97vUD!199N/hDZu^1097/gD/D!7/9u/!wu0^7199JNuw0H7D90N7ug0g7ii//0u!!w7^g1N9D7!hF_9/N0h1!gwFgiN0hu!h19g^FFh9!9whg!FDh0K7wuDFFii/_uwu^wFgi1>D/N^hFyiD=1D7^91FuixuDu^01wi^/17!0NNhiN/DD^07199F,Nu/0u0D9w/gu10h7N9D/2wD^}779iNFuh!/119!/1uD!17DgN/iu(!D70g7/DhF!uw/g1N!h1!^7N99FNhw!q1hg0F7hg0Fw/^/F7h!sFw^g/F9uN!sw%^1F0iN g7!^iN!h0e!D/^^FFi9/NDh^*Nvi0/NDg^01ii!/uDhg71^9//9w^0h1!9D/^u70u!F9iN/uu^i7w9gN1uDhN7h9CND71!779gF/uFr!u7ggwr!h1!9wNih/!hD!9w7ghFFuDc/1ug/Fwhis1wu^NNuhz0DwD^7FhiFkDD/g1F!h1!7D1^w1NuYfkDD^017hN/FDD0/1Fi!/1D^^01w9N/wDpgh1091/guN0i1^7u/!uw0^Fw99N/uh0g!D90N7ug9h7i9qNuD^i77^g/N9D1!h7tgDJ0D9!g7GgiN0hu0gwwi^NFh9!!whg^FDu^:71g9uFih0suwg^wN1i109w^^hF^iDQ9D7gu1FhuXNDu^i1whw/1D90N1hhD/DD9071D9F/uu/0NF!9w/iu19/7N9u/IuD007/7gNFui!//09!N7u^0N_igNNwuT^h70g7NgDF9ww/g7N!hF!^7/g9/Nhu!;w1g0FNhg!Nwi9/Ngh!mFw^^/F9uhyh1,^7F0iNQgwb^iNiiu0!w!^^1/i9.!Dhgg1Dhg//Dg^01ihg/uD!0w1^i9/9D!0h199D/gu70w/79i/0uu977w9gN1u9!N777;NDu0!7NNgFNhh/0w30gwNih1^^wNghNfDD9hw7ghFFhDA/77g!/wu!x1wu^NFwh#!ww097/TiFSDD/^7F!u^j^71g01NiwKSD1^0N0ig!Fwu0/17i!/FD^g!19hN,/Db01109N/gw!0iF!ig/!u/0^1i99NNuh08F/90NNug007i9!Nuuh9u7^gNN91/!h7!gDN0h7!u+FgiF/hui0wwggF1h70/whg^FD7!-7w9^FFhi/(1Z!^wF^i1ggDN^uFPiFi0D7^g1F7h//DD^!Nwi1/1DD0N1wiC//D0^F0!9F/7u/0D1!9w/^w1017N91/zuN001u9g//uD!/7N9!NNu^!179iUNuuS0T70i9NghF!i1!9!N!u0!^7ng9FNhh!O7gg0Njhg!9wig!Fuh!!/w^gyF9h0+hw9^DN0wNpgD/^iF9iux9Dw^^Fii9#0Dh^*1Di0/77g^/1ii^/uD90w1791/9w^0h1i9D/0u70u7FuiPuuu0h7wiNN1Dh!NNh91NDuu!71ggF/0h/gu1dgwNDh10lwN9FN.wD0iw7gwFFh/Y/wFg!Fw11-1wD^NFFhVyww0^/^giFbiD/D!F!i74^D19w1Ni7-4DD^017ig!FF00/11i!/ND^^g199N/DDL0/1097/gD!0iN/9N/!DU0^Fh99/muh9f1w90/!ug0F7i9FNu7!0^7^90N9uD!h1igD!0ui!g7^giNuhu!iwwg^/9h9!0whgiFDh^K7wgi/Fii/muw0^wF^i1c9wh^hF{iDB9wi^g1Fiig7ZhDg071/g1O!u/gE19i7D9^^1g9F/iFhDF0N77i!/7uN009w/guD007777gN/^ug779uNwu^!1)97wgu/DhN0g7NNhui!iw/gu07N/us!1D9gFNNh9!7g9Nghg)Fwiu0gVF0h1xgD/gDF^hDw^ghF0i7{gN5DN^fFwi0/Fwh^!Fh^//7Dg0N1i/NwD0F1i9/^N/wDu0hw09NMeDw^gD19w/gD-0!w99917uF!71i9/uu007h9_NDFDh1!F1!Nih/!u7!i^N^h1!9wNDwNKhD!0w7ggFFhi>/1Fg!F7h^xFw9^NFhhi0ww0^1Fgh0)iw*^uF0iwOh/1^91Nih.9DD^^17iu9FDi0/1uhD/wDg01Fhw//hD!0D1997/guFgi1u9u/0uw0g719DNNwh0D7D9^N7u9!F7hg/Ruuw!w7gg1NihN!F7(g/E^h7!9wF9hF/hD!!w7g^N_F94Nwhg*Nwh0<1wgg/0hi/lDw!^FF^i1)97N9wF iw30D1^gF!ii!/79^!17i^/FD90/1huo#1D0011g9N/iDi0uN!h!/^uF097/9h/DuD007/9gNNui0!7u9^Nww^0w799%Nhu!!D7wg7/iwD!i7^guN^hw!^w1g9(ghh!0wDgiF7hiyFw1ilFuh^5w7w^1FiiN2uw*^F^0i7UgDFgF1/iD !DND^11i9/Nw/^G1wi0c7Fh0F1u9//FD!0w1^910huN0h1R9w/0u70g7N1/N/uu0!7wD7N1u9!N7u9ZNDu00F7wgFNih/!F7!gwN^uN0!wNghNKh7!0w7ggB^h1Z/wug!N6h^PFw9iNFhhgiDw0^7Fgh^3iwp^uF!D1B^D1^91/ih6XDDgg!1ig/FDi9g1ui!/ww9^!199//hD^0D1097!gDi0i1n9u/0uw9971ihR7uh0^7Di0N7ug!F7ii1Nuu0!w7ig1N9hN!h1ugDN0h7!gwFguF/hu!Dwwg^F1hi%NwDg_/Dh7Q7w9^FFii/^Dw!^wBFi1suDN^hFfiFB017gu1FiD//w7^!F.i^01wF0N1wi,0iD0^w1guF/Nu/071!h9/^D709NN1^/8u1001i9g!1ui!/(w9!N7u^!/799&Nhwe!/70gFNghN!i1/guN!u0!^7%g9FNhh!^wDh0Nwhg!!wi90FuD/*wF^gNF9h0Ch7F^DNui7^gwN^iF^iu0gDwg011i9Y7Dh^01Dii/7Di0FNiiF/uDg0w1g91!9uN0h/w9D/hu70g7F9DN/7u0/7w9uN1Du!NNT9p!DDw!77DgFq^h/0N7!hwNhh1!wwNiwNQuu!0w7DiFFhDQ/wFg!F1h^017N^NF7hzjww097FgiF!0D/^NF!iwK^D/^9/Nh/_UD/^0FNig0^Di9/1Di! ;D^gD19hg/h1l0/10i!/g7V0i1N9u/!w90^1r99/guh007Dig!hug007ii7Nuu!!w19wuN9ug!h7FgDN0h7!g79giNihu!!wwg^F1h9!0whguFDh0(7wg^FFiu&zuww^wF^i1p9DNgDFDiDT1D7g!1Fii//wwg01wiN/1Di0N1hi)+7ww07Fb9F!Nu/0u1!hwZ!u1^07N9w/IwB0077uNNFD9!/7u9!N1u^g117gN/iuU0170i<Ngu^iNw/9uN!h/!^wFg9F/hh!{N0g0F7hg:Fwi^/Fuu!!1w^g7F9Du&h7p^DF0hiOgww^iFNiuf0Dw9^1Ni9A7Dh^g1Dh^/7Dg0N1iiN/uD!0w1i9109D!0h1/9DY9u7g97Fuia7uu^57wi9N1Dg!N7FwuNDD0!77igFNhh/!17!gw!1h1!9wNgNNbhD!0w7hFFFhiL/70g!Fwh^o1FN^NFhhtLNw0^7FgiF^/D/^uF!iw&^D1^9FNhDM:wu^0/9ig%FDi0/1Ni!QhD^^7199//h7X0710iu/gD!0i/^9u/!Di0^1799NNuh0h7Du0/7ug017ii0NuuD!wN^i9N9uF!h7ggD/Nh7gg19giNNhu09wwhiF1w90gwhg/FDug;77!^FbiuhYu7C^wFFi1kNDNihN7iD!!D7gC1FiF//DNuD1wh^/1DD0N1ui_/7D007/F9F/iu/^01!9w/
+-- Load Orion Library
+local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/GRPGaming/Key-System/refs/heads/Xycer-Hub-Script/ZusumeLib(Slider)'))()
+
+-- Create window
+local Window = OrionLib:MakeWindow({
+    Name = "Tower Of Hell",
+    HidePremium = false,
+    SaveConfig = false,
+    ConfigFolder = "TOH"
+})
+
+-- Bypass Tab
+local BypassTab = Window:MakeTab({
+    Name = "Bypass",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+-- Main Tab
+local Tab = Window:MakeTab({
+    Name = "Main",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+-- Player Editor Tab
+local ModsTab = Window:MakeTab({
+    Name = "Player Editor Tab",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+-- Variables
+local originalWalkSpeed = 16
+local originalJumpPower = 50
+local speedEnabled = false
+local jumpEnabled = false
+local invincibleEnabled = false
+local currentSpeedValue = 50
+local currentJumpValue = 100
+local antiVoidY = -20
+
+-- Teleport to Finish Button
+Tab:AddButton({
+    Name = "Teleport to Finish",
+    Callback = function()
+        local player = game.Players.LocalPlayer
+        local character = player.Character or player.CharacterAdded:Wait()
+        local hrp = character:FindFirstChild("HumanoidRootPart")
+        local destination = game.workspace:FindFirstChild("tower")
+            and game.workspace.tower:FindFirstChild("sections")
+            and game.workspace.tower.sections:FindFirstChild("finish")
+            and game.workspace.tower.sections.finish:FindFirstChild("exit")
+            and game.workspace.tower.sections.finish.exit:FindFirstChild("ParticleBrick")
+
+        if hrp and destination then
+            hrp.CFrame = destination.CFrame + Vector3.new(0, 5, 0)
+            OrionLib:MakeNotification({
+                Name = "Teleported!",
+                Content = "You are now at the finish!",
+                Image = "rbxassetid://4483345998",
+                Time = 3
+            })
+        else
+            OrionLib:MakeNotification({
+                Name = "Error!",
+                Content = "Finish part not found.",
+                Image = "rbxassetid://4483345998",
+                Time = 3
+            })
+        end
+    end
+})
+
+-- Speed Hack Toggle
+ModsTab:AddToggle({
+    Name = "Speed Hack",
+    Default = false,
+    Callback = function(enabled)
+        speedEnabled = enabled
+        local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+        local humanoid = character:FindFirstChildOfClass("Humanoid")
+        if humanoid then
+            humanoid.WalkSpeed = enabled and currentSpeedValue or originalWalkSpeed
+            OrionLib:MakeNotification({
+                Name = "Speed Hack",
+                Content = enabled and "Speed hack enabled!" or "Speed hack disabled!",
+                Image = "rbxassetid://4483345998",
+                Time = 2
+            })
+        end
+    end
+})
+
+-- Speed Slider
+ModsTab:AddSlider({
+    Name = "WalkSpeed Value",
+    Min = 16,
+    Max = 200,
+    Default = 50,
+    Increment = 1,
+    ValueName = "Speed",
+    Callback = function(value)
+        currentSpeedValue = value
+        if speedEnabled then
+            local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+            local humanoid = character:FindFirstChildOfClass("Humanoid")
+            if humanoid then
+                humanoid.WalkSpeed = value
+            end
+        end
+    end
+})
+
+-- Jump Hack Toggle
+ModsTab:AddToggle({
+    Name = "Jump Hack",
+    Default = false,
+    Callback = function(enabled)
+        jumpEnabled = enabled
+        local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+        local humanoid = character:FindFirstChildOfClass("Humanoid")
+        if humanoid then
+            humanoid.JumpPower = enabled and currentJumpValue or originalJumpPower
+            OrionLib:MakeNotification({
+                Name = "Jump Hack",
+                Content = enabled and "Jump hack enabled!" or "Jump hack disabled!",
+                Image = "rbxassetid://4483345998",
+                Time = 2
+            })
+        end
+    end
+})
+
+-- JumpPower Slider
+ModsTab:AddSlider({
+    Name = "JumpPower Value",
+    Min = 50,
+    Max = 500,
+    Default = 100,
+    Increment = 5,
+    ValueName = "Power",
+    Callback = function(value)
+        currentJumpValue = value
+        if jumpEnabled then
+            local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+            local humanoid = character:FindFirstChildOfClass("Humanoid")
+            if humanoid then
+                humanoid.JumpPower = value
+            end
+        end
+    end
+})
+
+-- Restore on Respawn
+game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
+    local humanoid = character:WaitForChild("Humanoid")
+    task.wait(0.5)
+    if speedEnabled then
+        humanoid.WalkSpeed = currentSpeedValue
+    end
+    if jumpEnabled then
+        humanoid.JumpPower = currentJumpValue
+    end
+end)
+
+-- Bypass Button
+BypassTab:AddButton({
+    Name = "Show Bypass UI",
+    Callback = function()
+        local uiVisible = true
+
+        local uiFrame = Instance.new("Frame")
+        uiFrame.Size = UDim2.new(0, 200, 0, 100)
+        uiFrame.Position = UDim2.new(0.5, -100, 0.5, -50)
+        uiFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+        uiFrame.Visible = true
+        uiFrame.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+        local toggleButton = Instance.new("TextButton")
+        toggleButton.Size = UDim2.new(0, 100, 0, 50)
+        toggleButton.Position = UDim2.new(0.5, -50, 0, 0)
+        toggleButton.Text = "Toggle UI"
+        toggleButton.Parent = uiFrame
+
+        toggleButton.MouseButton1Click:Connect(function()
+            uiVisible = not uiVisible
+            uiFrame.Visible = uiVisible
+        end)
+
+        local dragging = false
+        local dragInput
+        local dragStart
+        local startPos
+
+        local function updateInput(input)
+            local delta = input.Position - dragStart
+            uiFrame.Position = UDim2.new(
+                startPos.X.Scale, startPos.X.Offset + delta.X,
+                startPos.Y.Scale, startPos.Y.Offset + delta.Y
+            )
+        end
+
+        uiFrame.InputBegan:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseButton1 then
+                dragging = true
+                dragStart = input.Position
+                startPos = uiFrame.Position
+
+                input.Changed:Connect(function()
+                    if input.UserInputState == Enum.UserInputState.End then
+                        dragging = false
+                    end
+                end)
+            end
+        end)
+
+        uiFrame.InputChanged:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseMovement then
+                dragInput = input
+            end
+        end)
+
+        game:GetService("UserInputService").InputChanged:Connect(function(input)
+            if input == dragInput and dragging then
+                updateInput(input)
+            end
+        end)
+    end
+})
+
+-- Initialize UI
+OrionLib:Init()
