@@ -9,6 +9,13 @@ local Window = OrionLib:MakeWindow({
     ConfigFolder = "TOH"
 })
 
+-- Bypass Tab
+local BypassTab = Window:MakeTab({
+    Name = "Bypass",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
 -- Main Tab
 local Tab = Window:MakeTab({
     Name = "Main",
@@ -23,21 +30,15 @@ local ModsTab = Window:MakeTab({
     PremiumOnly = false
 })
 
--- Bypass Tab
-local BypassTab = Window:MakeTab({
-    Name = "Bypass",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
-
 -- Variables
 local originalWalkSpeed = 16
 local originalJumpPower = 50
 local speedEnabled = false
 local jumpEnabled = false
+local invincibleEnabled = false
 local currentSpeedValue = 50
 local currentJumpValue = 100
-local createdBypassUI = false
+local antiVoidY = -20
 
 -- Teleport to Finish Button
 Tab:AddButton({
@@ -163,13 +164,10 @@ game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
     end
 end)
 
--- Bypass UI Button
+-- Bypass Button
 BypassTab:AddButton({
-    Name = "Enable Bypass UI",
+    Name = "Show Bypass UI",
     Callback = function()
-        if createdBypassUI then return end
-        createdBypassUI = true
-
         local uiVisible = true
 
         local uiFrame = Instance.new("Frame")
@@ -228,13 +226,6 @@ BypassTab:AddButton({
                 updateInput(input)
             end
         end)
-
-        OrionLib:MakeNotification({
-            Name = "Bypass UI Enabled",
-            Content = "Draggable frame added to your screen!",
-            Image = "rbxassetid://4483345998",
-            Time = 3
-        })
     end
 })
 
