@@ -160,7 +160,7 @@ ModsTab:AddToggle({
     end
 })
 
--- Background Loop (Invincibility + Anti-Void)
+-- Background Loop (Invincibility with math.huge + Anti-Void)
 task.spawn(function()
     while true do
         local player = game.Players.LocalPlayer
@@ -169,8 +169,9 @@ task.spawn(function()
             local humanoid = character:FindFirstChildOfClass("Humanoid")
             local hrp = character:FindFirstChild("HumanoidRootPart")
             if humanoid then
-                if invincibleEnabled and humanoid.Health < humanoid.MaxHealth then
-                    humanoid.Health = humanoid.MaxHealth
+                if invincibleEnabled then
+                    humanoid.MaxHealth = math.huge
+                    humanoid.Health = math.huge
                 end
                 if invincibleEnabled and hrp and hrp.Position.Y < antiVoidY then
                     hrp.CFrame = CFrame.new(0, 50, 0)
