@@ -23,15 +23,21 @@ local ModsTab = Window:MakeTab({
     PremiumOnly = false
 })
 
+-- Bypass Tab
+local BypassTab = Window:MakeTab({
+    Name = "Bypass",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
 -- Variables
 local originalWalkSpeed = 16
 local originalJumpPower = 50
 local speedEnabled = false
 local jumpEnabled = false
-local invincibleEnabled = false
 local currentSpeedValue = 50
 local currentJumpValue = 100
-local antiVoidY = -20
+local createdBypassUI = false
 
 -- Teleport to Finish Button
 Tab:AddButton({
@@ -156,6 +162,81 @@ game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
         humanoid.JumpPower = currentJumpValue
     end
 end)
+
+-- Bypass UI Button
+BypassTab:AddButton({
+    Name = "Enable Bypass UI",
+    Callback = function()
+        if createdBypassUI then return end
+        createdBypassUI = true
+
+        local uiVisible = true
+
+        local uiFrame = Instance.new("Frame")
+        uiFrame.Size = UDim2.new(0, 200, 0, 100)
+        uiFrame.Position = UDim2.new(0.5, -100, 0.5, -50)
+        uiFrame.BackgroundColor3 = Color3.new(0, 0, 0)
+        uiFrame.Visible = true
+        uiFrame.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+        local toggleButton = Instance.new("TextButton")
+        toggleButton.Size = UDim2.new(0, 100, 0, 50)
+        toggleButton.Position = UDim2.new(0.5, -50, 0, 0)
+        toggleButton.Text = "Toggle UI"
+        toggleButton.Parent = uiFrame
+
+        toggleButton.MouseButton1Click:Connect(function()
+            uiVisible = not uiVisible
+            uiFrame.Visible = uiVisible
+        end)
+
+        local dragging = false
+        local dragInput
+        local dragStart
+        local startPos
+
+        local function updateInput(input)
+            local delta = input.Position - dragStart
+            uiFrame.Position = UDim2.new(
+                startPos.X.Scale, startPos.X.Offset + delta.X,
+                startPos.Y.Scale, startPos.Y.Offset + delta.Y
+            )
+        end
+
+        uiFrame.InputBegan:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseButton1 then
+                dragging = true
+                dragStart = input.Position
+                startPos = uiFrame.Position
+
+                input.Changed:Connect(function()
+                    if input.UserInputState == Enum.UserInputState.End then
+                        dragging = false
+                    end
+                end)
+            end
+        end)
+
+        uiFrame.InputChanged:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseMovement then
+                dragInput = input
+            end
+        end)
+
+        game:GetService("UserInputService").InputChanged:Connect(function(input)
+            if input == dragInput and dragging then
+                updateInput(input)
+            end
+        end)
+
+        OrionLib:MakeNotification({
+            Name = "Bypass UI Enabled",
+            Content = "Draggable frame added to your screen!",
+            Image = "rbxassetid://4483345998",
+            Time = 3
+        })
+    end
+})
 
 -- Initialize UI
 OrionLib:Init()
