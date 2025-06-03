@@ -166,7 +166,7 @@ end)
 
 -- Bypass Button
 BypassTab:AddButton({
-    Name = "Show Bypass UI",
+    Name = "Bypass",
     Callback = function()
         local uiVisible = true
 
