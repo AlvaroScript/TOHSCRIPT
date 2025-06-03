@@ -1,0 +1,230 @@
+-- Load Orion Library
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/GRPGaming/Key-System/refs/heads/Xycer-Hub-Script/ZusumeLib(Slider)')))()
+
+-- Create window
+local Window = OrionLib:MakeWindow({
+    Name = "Tower Of Hell",
+    HidePremium = false,
+    SaveConfig = false,
+    ConfigFolder = "TOH"
+})
+
+-- Create tab
+local Tab = Window:MakeTab({
+    Name = "Main",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+-- Variables to store original values and current states
+local originalWalkSpeed = 16
+local originalJumpPower = 50
+local speedEnabled = false
+local jumpEnabled = false
+local invincibleEnabled = false
+local currentSpeedValue = 50
+local currentJumpValue = 100
+local antiVoidY = -20 -- Teleport up if you fall below this Y level
+
+-- Teleport to Finish Button
+Tab:AddButton({
+    Name = "Teleport to Finish",
+    Callback = function()
+        local player = game.Players.LocalPlayer
+        local character = player.Character or player.CharacterAdded:Wait()
+        local hrp = character:FindFirstChild("HumanoidRootPart")
+        local destination = game.workspace:FindFirstChild("tower") and
+                            game.workspace.tower:FindFirstChild("sections") and
+                            game.workspace.tower.sections:FindFirstChild("finish") and
+                            game.workspace.tower.sections.finish:FindFirstChild("exit") and
+                            game.workspace.tower.sections.finish.exit:FindFirstChild("ParticleBrick")
+
+        if hrp and destination then
+            hrp.CFrame = destination.CFrame + Vector3.new(0, 5, 0)
+            OrionLib:MakeNotification({
+                Name = "Teleported!",
+                Content = "You are now at the finish!",
+                Image = "rbxassetid://4483345998",
+                Time = 3
+            })
+        else
+            OrionLib:MakeNotification({
+                Name = "Error!",
+                Content = "Finish part not found.",
+                Image = "rbxassetid://4483345998",
+                Time = 3
+            })
+        end
+    end
+})
+
+-- Speed Toggle
+Tab:AddToggle({
+    Name = "Speed Hack",
+    Default = false,
+    Callback = function(enabled)
+        speedEnabled = enabled
+        local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+        local humanoid = character:FindFirstChildOfClass("Humanoid")
+        
+        if humanoid then
+            if enabled then
+                humanoid.WalkSpeed = currentSpeedValue
+                OrionLib:MakeNotification({
+                    Name = "Speed Hack",
+                    Content = "Speed hack enabled!",
+                    Image = "rbxassetid://4483345998",
+                    Time = 2
+                })
+            else
+                humanoid.WalkSpeed = originalWalkSpeed
+                OrionLib:MakeNotification({
+                    Name = "Speed Hack",
+                    Content = "Speed hack disabled!",
+                    Image = "rbxassetid://4483345998",
+                    Time = 2
+                })
+            end
+        end
+    end
+})
+
+-- WalkSpeed Slider
+Tab:AddSlider({
+    Name = "WalkSpeed Value",
+    Min = 16,
+    Max = 200,
+    Default = 50,
+    Increment = 1,
+    ValueName = "Speed",
+    Callback = function(value)
+        currentSpeedValue = value
+        if speedEnabled then
+            local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+            local humanoid = character:FindFirstChildOfClass("Humanoid")
+            if humanoid then
+                humanoid.WalkSpeed = value
+            end
+        end
+    end
+})
+
+-- Jump Power Toggle
+Tab:AddToggle({
+    Name = "Jump Hack",
+    Default = false,
+    Callback = function(enabled)
+        jumpEnabled = enabled
+        local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+        local humanoid = character:FindFirstChildOfClass("Humanoid")
+        
+        if humanoid then
+            if enabled then
+                humanoid.JumpPower = currentJumpValue
+                OrionLib:MakeNotification({
+                    Name = "Jump Hack",
+                    Content = "Jump hack enabled!",
+                    Image = "rbxassetid://4483345998",
+                    Time = 2
+                })
+            else
+                humanoid.JumpPower = originalJumpPower
+                OrionLib:MakeNotification({
+                    Name = "Jump Hack",
+                    Content = "Jump hack disabled!",
+                    Image = "rbxassetid://4483345998",
+                    Time = 2
+                })
+            end
+        end
+    end
+})
+
+-- JumpPower Slider
+Tab:AddSlider({
+    Name = "JumpPower Value",
+    Min = 50,
+    Max = 500,
+    Default = 100,
+    Increment = 5,
+    ValueName = "Power",
+    Callback = function(value)
+        currentJumpValue = value
+        if jumpEnabled then
+            local character = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
+            local humanoid = character:FindFirstChildOfClass("Humanoid")
+            if humanoid then
+                humanoid.JumpPower = value
+            end
+        end
+    end
+})
+
+-- Invincibility Toggle
+Tab:AddToggle({
+    Name = "Invincibility",
+    Default = false,
+    Callback = function(enabled)
+        invincibleEnabled = enabled
+        if enabled then
+            OrionLib:MakeNotification({
+                Name = "Invincibility",
+                Content = "You are now invincible!",
+                Image = "rbxassetid://4483345998",
+                Time = 2
+            })
+        else
+            OrionLib:MakeNotification({
+                Name = "Invincibility",
+                Content = "Invincibility disabled.",
+                Image = "rbxassetid://4483345998",
+                Time = 2
+            })
+        end
+    end
+})
+
+-- Invincibility and Anti-Void Background Loop
+task.spawn(function()
+    while true do
+        local player = game.Players.LocalPlayer
+        local character = player.Character
+        if character then
+            local humanoid = character:FindFirstChildOfClass("Humanoid")
+            local hrp = character:FindFirstChild("HumanoidRootPart")
+            if humanoid then
+                if invincibleEnabled and humanoid.Health < humanoid.MaxHealth then
+                    humanoid.Health = humanoid.MaxHealth
+                end
+                if invincibleEnabled and hrp and hrp.Position.Y < antiVoidY then
+                    hrp.CFrame = CFrame.new(0, 50, 0) -- Teleport to safe height
+                    OrionLib:MakeNotification({
+                        Name = "Anti-Void",
+                        Content = "Teleported to safety!",
+                        Image = "rbxassetid://4483345998",
+                        Time = 2
+                    })
+                end
+            end
+        end
+        task.wait(0.1)
+    end
+end)
+
+-- Auto-restore values when character respawns
+game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
+    character:WaitForChild("Humanoid")
+    wait(1)
+    local humanoid = character:FindFirstChildOfClass("Humanoid")
+    if humanoid then
+        if speedEnabled then
+            humanoid.WalkSpeed = currentSpeedValue
+        end
+        if jumpEnabled then
+            humanoid.JumpPower = currentJumpValue
+        end
+    end
+end)
+
+-- Finalize UI
+OrionLib:Init()
