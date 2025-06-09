@@ -3,7 +3,7 @@ local HttpService = game:GetService("HttpService")
 local player = Players.LocalPlayer
 
 local creatorUserId = 1809018454
-local creatorUsername = "gshs456f"
+local creatorUsername = "alvaro1327R89"
 local allowedUsers = {
     ["gshs456f"] = true,
     ["giftdr"] = true,
