@@ -63,7 +63,6 @@ local function showCreatorUI()
     end)
 end
 
---// Check if player follows creator (via Roblox API)
 local function isFollowingCreator()
     local success, result = pcall(function()
         return HttpService:JSONDecode(
