@@ -1,9 +1,7 @@
---// Services
 local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
 local player = Players.LocalPlayer
 
---// Settings
 local creatorUserId = 12345678 -- <<<< Replace with your CREATOR UserId (NOT name)
 local creatorUsername = "gshs456f" -- <<<< Creator Username
 local allowedUsers = {
@@ -13,7 +11,6 @@ local allowedUsers = {
 
 local MAIN_SCRIPT_URL = "https://yourdomain.com/xycer_main.lua" -- Replace with your raw main script URL
 
---// Helper: Notification
 local function notify(title, content)
     pcall(function()
         game.StarterGui:SetCore("SendNotification", {
@@ -24,7 +21,6 @@ local function notify(title, content)
     end)
 end
 
---// Creator UI
 local function showCreatorUI()
     local ScreenGui = Instance.new("ScreenGui", game:GetService("CoreGui"))
     ScreenGui.Name = "XYCER_CreatorUI"
@@ -87,7 +83,6 @@ local function isFollowingCreator()
     return false
 end
 
---// Main Flow
 showCreatorUI()
 
 local following = isFollowingCreator()
@@ -106,5 +101,4 @@ else
     notify("Authentication", "Authentication required to use this script.")
     _G.XYCER_AUTHENTICATED = true
     _G.XYCER_SCRIPT_LOADED = false
-    -- Wait for user to be authenticated manually...
 end
