@@ -2,8 +2,8 @@ local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
 local player = Players.LocalPlayer
 
-local creatorUserId = 12345678 -- <<<< Replace with your CREATOR UserId (NOT name)
-local creatorUsername = "gshs456f" -- <<<< Creator Username
+local creatorUserId = 1809018454
+local creatorUsername = "gshs456f"
 local allowedUsers = {
     ["gshs456f"] = true,
     ["giftdr"] = true,
