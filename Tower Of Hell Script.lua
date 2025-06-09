@@ -9,7 +9,7 @@ local allowedUsers = {
     ["giftdr"] = true,
 }
 
-local MAIN_SCRIPT_URL = "https://yourdomain.com/xycer_main.lua" -- Replace with your raw main script URL
+local MAIN_SCRIPT_URL = "https://raw.githubusercontent.com/AlvaroScript/TOHMAINSCRIPT/refs/heads/main/Tower%20Of%20Hell%20Main.lua"
 
 local function notify(title, content)
     pcall(function()
