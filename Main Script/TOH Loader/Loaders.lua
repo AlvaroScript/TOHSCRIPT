@@ -4,7 +4,9 @@ end
 
 -- Allowed Place IDs
 local allowedPlaceIds = {
-    [1962086868] = true, -- Tower of Hell
+    [1962086868] = true, -- Tower Of Hell
+    [3582763398] = true, -- Tower Of Hell Pro
+    [5253186791] = true, -- Tower Of Hell Appeals
 }
 
 local currentPlaceId = game.PlaceId
